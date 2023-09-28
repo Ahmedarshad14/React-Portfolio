@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+.btn {
+    @apply px-10 py-2 text-green-100 font-nibbold bg-[#1b3d38] uppercase tracking-wider;
+}
+}
+
+@layer base {
+    @font-face {
+        font-family: "nibbold";
+        font-style: bold;
+        src: url('/fonts/nibbold.woff2') format('woff2'), url('/fonts/nibbold.woff') format('woff')
+    }
+}
+
+@layer base {
+    @font-face {
+        font-family: "nibblack";
+        font-style: black;
+        src: url('/fonts/nibblack.woff2') format('woff2'), url('/fonts/nibblack.woff') format('woff')
+    }
+}
+
